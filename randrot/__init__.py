@@ -7,23 +7,29 @@ def generate(dim):
     """Generate a random rotation matrix.
 
     Args:
-        dim (int): The dimension of the matrix
+        dim (int): The dimension of the matrix.
 
     Returns:
-        np.matrix: A rotation matrix
+        np.matrix: A rotation matrix.
+
+    Raises:
+        ValueError: If `dim` is not 2 or 3.
 
     """
     if dim == 2:
         return generate_2d()
     elif dim == 3:
         return generate_3d()
+    else:
+        raise ValueError('Dimension {} is not supported. Use 2 or 3 instead.'
+                         .format(dim))
 
 
 def generate_2d():
     """Generate a 2D random rotation matrix.
 
     Returns:
-        np.matrix: A 2D rotation matrix
+        np.matrix: A 2D rotation matrix.
 
     """
     x = np.random.random()
@@ -36,7 +42,7 @@ def generate_3d():
     """Generate a 3D random rotation matrix.
 
     Returns:
-        np.matrix: A 3D rotation matrix
+        np.matrix: A 3D rotation matrix.
 
     """
     x1, x2, x3 = np.random.rand(3)
