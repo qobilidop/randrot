@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/qobilidop/randrot.svg?branch=master)](https://travis-ci.org/qobilidop/randrot)
 
-Python random rotation matrix generators in 2D and 3D.
+Python random rotation matrix generators (currently in 2D and 3D).
 
 Generate uniformly distributed random rotation matrices in 2D and 3D. The 2D case is trivial. The 3D case is based on an algorithm described in [Arvo 1992](http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.53.1357).
 
@@ -27,3 +27,7 @@ matrix([[ 0.97631838,  0.04135264, -0.21234968],
         [-0.19851343, -0.21892019, -0.95533574],
         [-0.08599329,  0.9748661 , -0.20552675]])
 ```
+
+## Roadmap
+
+- Generate [uniform random rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix#Uniform_random_rotation_matrices) in any dimension.
