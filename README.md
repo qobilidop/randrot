@@ -34,6 +34,6 @@ matrix([[ 0.97631838,  0.04135264, -0.21234968],
 
 ## See also
 
-This project does solve the problem it aims to solve. But it's rather simple and featureless. Actually I also use this project to learn to make a Python package. There are other Python packages you might be interested to check out:
+This project does solve the problem it aims to solve. But it's rather simple and feature-poor. Actually I also use this project to learn to make a Python package. There are other Python packages you might be interested to check out:
 
 - [pyquaternion](http://kieranwynn.github.io/pyquaternion/) is a full-featured Python module for representing and using quaternions. It has the functionalities to [create random quaternion](http://kieranwynn.github.io/pyquaternion/#random), [access matrix form](http://kieranwynn.github.io/pyquaternion/#accessing-matrix-form) and much more.
