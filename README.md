@@ -31,3 +31,7 @@ matrix([[ 0.97631838,  0.04135264, -0.21234968],
 ## Roadmap
 
 - Generate [uniform random rotation matrices](https://en.wikipedia.org/wiki/Rotation_matrix#Uniform_random_rotation_matrices) in any dimension.
+
+## See also
+
+- [pyquaternion](http://kieranwynn.github.io/pyquaternion/) is a full-featured Python module for representing and using quaternions. It has the functionality to [create random quaternions](http://kieranwynn.github.io/pyquaternion/#random), [access matrix form](http://kieranwynn.github.io/pyquaternion/#accessing-matrix-form) and much more.
