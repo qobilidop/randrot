@@ -23,7 +23,6 @@ setup(
     # the version across setup.py and the project code, see
     # https://packaging.python.org/en/latest/single_source_version.html
     use_scm_version=True,
-    setup_requires=['setuptools_scm'],
 
     description='A sample Python project',
     long_description=long_description,
@@ -79,5 +78,7 @@ setup(
     # your project is installed. For an analysis of "install_requires" vs pip's
     # requirements files see:
     # https://packaging.python.org/en/latest/requirements.html
-    install_requires=['numpy']
+    install_requires=['numpy'],
+    setup_requires=['pytest-runner', 'setuptools_scm'],
+    tests_require=['pytest']
 )
