@@ -1,6 +1,10 @@
-# randrot
+**Use scipy.stats.special_ortho_group instead!**
 
-[![Build Status](https://travis-ci.org/qobilidop/randrot.svg?branch=master)](https://travis-ci.org/qobilidop/randrot)
+I'm checking back after 3 years and just noticed this scipy function. Everyone should use that instead of this toy project. I'm keeping the repo here only for personal memory.
+
+What follows is the original README:
+
+# randrot
 
 Python random rotation matrix generators (currently in 2D and 3D).
 
